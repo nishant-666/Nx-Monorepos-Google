@@ -1,0 +1,9 @@
+{
+  "name": "input",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/input/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project input --web",
+  "targets": {}
+}

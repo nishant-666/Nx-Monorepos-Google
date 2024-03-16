@@ -1,12 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { Input } from '@google-ws/input';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="gmail" />
+      <h1>GMAIL</h1>
+
+      <Input placeholder="GMAIL" />
     </div>
   );
 }
